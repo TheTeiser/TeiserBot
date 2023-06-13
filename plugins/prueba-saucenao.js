@@ -1,4 +1,4 @@
-//Código creado por https://github.com/GataNina-Li || @gata_dios
+//Código creado por https://github.com/TheTeiser || @gata_dios
 
 import fs from 'fs'
 import axios from 'axios'

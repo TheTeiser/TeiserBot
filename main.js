@@ -84,11 +84,11 @@ getMessage: async (key) => {
 if (store) {
 const msg = await store.loadMessage(key.remoteJid, key.id)
 return msg.message || undefined }
-return { conversation: "hello, i'm GataBotLite-MD" }},   
+return { conversation: "hello, i'm TeiserBot" }},   
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['GataBotLite-MD','Edge','107.0.1418.26'],
+browser: ['TeiserBot','Edge','107.0.1418.26'],
 version   
 }       
 
@@ -156,7 +156,7 @@ console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err));
 }}
 
 function purgeOldFiles() {
-const directories = ['./GataBotSession/', './GataJadiBot/']
+const directories = ['./TeiserBotSession/', './TeiserBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err

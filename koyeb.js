@@ -5,10 +5,10 @@ RUN sudo dnf -y update &&\
     sudo dnf install -y git ffmpeg ImageMagick nodejs libwebp &&\
     sudo dnf clean all -y
 
-RUN git clone https://github.com/GataNina-Li/GataBotLite-MD
+RUN git clone https://github.com/TheTeiser/TeiserBot
 
-WORKDIR /root/GataBotLite-MD
+WORKDIR /root/TeiserBot
 
-COPY ./root/GataBotLite-MD
+COPY ./root/TeiserBot
 
 CMD ["node", "index.js"]
